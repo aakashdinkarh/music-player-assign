@@ -1,3 +1,8 @@
+# About the project:
+This project is made to take an input audio file from user and then play the recieved file in an audio player.
+
+#Contributer: Aakash Dinkar
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,6 +18,22 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## Project Discription
+
+When the page opens up, a simple form will appear which is designed to take input audio file from the user.
+After the user chooses a file from his local storage, the user is needed to click on the upload button.
+
+After the upload button is clicked, the page redirects, now the screen shows the user an audio player,
+The audio player will play the selected audio file, the user uploaded, on click on "Play button" in the audio player.
+
+The audio player have button to perform some functions like, play, pause, skip 5 seconds forward, go 5 seconds backward etc.,
+and a volume option to adjust the volume of the audio player.
+
+The audio player have a seekbar which shows the current progress of the audio track,
+the seekbar is also adjustable i.e, you can jump to another time in the audio by adjusting the position of seekbar thumb.
+Once the audio has been played to the end, the player stops.
+
 
 ### `npm test`
 
